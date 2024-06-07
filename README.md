@@ -17,9 +17,10 @@ This project provides a collection of sorting algorithms implemented in Python, 
 3. Run the main.py script to visualize a sorting algorithm of your choice.
 
 ```
-conda activate show-sort-alg-exec-env
 
 conda env create -n show-sort-alg-exec-env -f ./env.yml
+
+conda activate show-sort-alg-exec-env
 
 python src/main.py
 
